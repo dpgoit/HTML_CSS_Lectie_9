@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../styles/reset.css" />
+    <link rel="stylesheet" href="../../styles/fonts.css" />
+    <link rel="stylesheet" href="../../styles/main.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>HTML/CSS Modulul 5 - Lectia 9</title>
+    <style></style>
+  </head>
+  <body>
+    <main>
+      <h1 class="heading-primary">Proprietatea position</h1>
+      <p>
+        Daca ai de realizat un design complex, va trebui sa modifici 'flow-ul' standard al
+        documentului si sa suprascrii stiluri standard din browser. De examplu, daca vrei sa pui
+        elemente suprapuse intr-o anumita ordine, sau daca vrei ca navigatia site-ului sa ramana in
+        sus-ul paginii, si sa nu se miste cand faci scroll in sus sau in jos. Ca sa faci asta, si
+        multe altele, te poti folosi de proprietatea CSS <em>position</em>. Ea poate lua cinci
+        valori:
+      </p>
+      <ul>
+        <li>static</li>
+        <li>relative</li>
+        <li>absolute</li>
+        <li>fixed</li>
+        <li>sticky</li>
+      </ul>
+
+      <section class="element-parinte">
+        <div class="element-copil">Eu sunt fratele numarul 1</div>
+        <div class="element-principal">
+          Eu sunt fratele important! Sunt principal, sunt favorit!
+        </div>
+        <div class="element-copil">Eu sunt fratele numarul 3</div>
+      </section>
+
+      <article class="articol-inaltime">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente fugit in possimus unde
+        minus autem! Corrupti commodi, modi mollitia animi laboriosam, distinctio, quia explicabo
+        labore architecto ratione neque sapiente. Natus!
+        <em>Da scroll mai jos</em>
+      </article>
+    </main>
+  </body>
+</html>

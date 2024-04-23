@@ -1,0 +1,26 @@
+.col {
+  float: left;
+  width: 50%;
+}
+
+.fixed {
+  background-color: pink;
+  color: black;
+  font-weight: 600;
+  padding: 20px;
+  width: 40%;
+  position: fixed;
+}
+
+.sticky {
+  background-color: green;
+  color: #555;
+  font-weight: 600;
+  padding: 20px;
+  position: sticky;
+  top: 20px;
+}
+/* .col-special {
+  overflow: scroll;
+  height: 900px;
+} */
